@@ -1,0 +1,40 @@
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.price-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  border-radius: 15px;
+  border: 3px solid #0012ff;
+  padding: 35px 0;
+
+}
+
+.price-card h1 {
+  color: #0012ff;
+}
+
+.price-card h1, .price-card h2, .price-card h3 {
+  margin: 3px 0;
+}
+
+.price-card.active {
+  background-image: linear-gradient(to right, #0012ff, #0C55E8);
+  color: white;
+  padding: 65px 0;
+}
+
+.price-card.active h1 {
+  color: white;
+}
+
+.price-card.active .btn-primary {
+  color: #0012ff;
+  background-color: white;
+}
